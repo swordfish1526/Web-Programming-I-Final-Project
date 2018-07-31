@@ -1,4 +1,4 @@
-
+/*
 h1, a, p,h3, h4 {
   color: #fff;
 }
@@ -16,7 +16,18 @@ body {
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-}
+}*/
+
+#nav {
+  text-align:center;
+  }
+  #nav li {
+  display:inline;
+  }
+  #nav a {
+  text-decoration:none; 
+  padding:0 30px; /* variable width */
+  }/*
 
 .background-container {
     background: #101f61;
@@ -55,6 +66,7 @@ user agent stylesheet a:-webkit-any-link {
 }
 
 /* Create two equal columns that sits next to each other */
+/*
 .column {
   flex: 50%;
   padding: 0 4px;
@@ -145,4 +157,10 @@ user agent stylesheet a:-webkit-any-link {
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover {
   background: #2ebc99;
+} */
+#footer{
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
