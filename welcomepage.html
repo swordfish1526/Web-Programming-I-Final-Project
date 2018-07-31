@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Welcome Page</title>
-		<meta charset="utf-8">
-		<meta name="description" content="Welcome page to select age and language">
-		<meta name="author" content="Carlos Sanz">
-		<meta name="robots" content="Welcome Page">
-		<!--<link rel="stylesheet" type="text/css" href="style.css">-->
-		<link rel="stylesheet" type="text/css" href="./styles/my_style.css">
-		<script src="./scripts/util.js"></script>
-	</head>
 
-	<body class="background-container">
-		<div id="container">
-			<div id="header">
-				<h1>Cheap & Good LLC</h1>
-			</div>
-			<div id="nav">
-				<nav>
-					<a href="home.html">Home</a> &nbsp;
-					<a href="testimonials.html">Testimonial</a> &nbsp;
-					<a href="about.html">About</a> &nbsp;
-					<a href="contact.html">Contact</a> &nbsp;
-				</nav>
-			</div>
+<head>
+	<title>Welcome Page</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Welcome page to select age and language">
+	<meta name="author" content="Carlos Sanz">
+	<meta name="robots" content="Welcome Page">
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	<link rel="stylesheet" type="text/css" href="./styles/my_style.css">
+	<script src="./scripts/util.js"></script>
+</head>
+
+<body class="background-container">
+	<div id="container">
+		
+	</div>
+
+	<div class="country-selection">
+		<div id="header">
+			<h1>Cheap & Good LLC</h1>
 		</div>
-
-		<div class="country-selection">
-			<h4>Hello!
-				<p/>Choose a language:</h4>
-			<div>
-				<label class="age-lbl">Age:</label>
-				<input id="age" name="age" type="number" />
-			</div>
-
-			<div>
-				<a href="#" id="english-page" onclick="validateAge()">
-					<img src="./images/lang/english.png" alt="English" />
-				</a>
-				<a href="#" id="spanish-page" onclick="">
-					<img src="./images/lang/spanish.png" alt="Spanish" />
-				</a>
-
-			</div>
+		<h4>Hello!
+			<p/>How old are you?</h4>
+		<div>
+			<label class="age-lbl">Age:</label>
+			<input id="age" name="age" type="number" />
 		</div>
-	</body>
+		<p/>
+		<span>Choose a language</span>
+		<div>
+			<a href="#" id="english-page" onclick="validateAge()">
+				<img src="./images/lang/english.png" alt="English" />
+			</a>
+			<a href="#" id="spanish-page" onclick="">
+				<img src="./images/lang/spanish.png" alt="Spanish" />
+			</a>
+
+		</div>
+	</div>
+</body>
 </html>
