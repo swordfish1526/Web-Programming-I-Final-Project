@@ -14,17 +14,29 @@ function notEmptyValue(c) {
   return true;
 }
 
-function validateAge(idiom) {
+function validateAge(language) {
   let age = document.getElementById('age').value;  
   if(age < 18){
     alert('You should be at least 18 years old to buy a product!');
   }else{
-    if(idiom === 'en'){
-      window.location.href = "home.html";
-    }else{
-      alert('Under constructions!');
-    }    
+    redirectPage(language);
   }
+}
+
+function redirectPage(language){
+  if (language === "en") {
+    window.location.href = "home.html";
+  } else {
+    alert("Under constructions!");
+  }    
+}
+
+
+function selectProduct(){
+  let product = document.getElementsByClassName("product-card");
+  
+  console.log(product);
+  
 }
 
 // Get the elements with class="column"
