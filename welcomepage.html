@@ -6,7 +6,8 @@
 		<meta name="description" content="Welcome page to select age and language">
 		<meta name="author" content="Carlos Sanz">
 		<meta name="robots" content="Welcome Page">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+		<link rel="stylesheet" type="text/css" href="./styles/my_style.css">
 		<script src="./scripts/util.js"></script>
 	</head>
 
@@ -34,10 +35,10 @@
 			</div>
 
 			<div>
-				<a href="#" onclick="validateAge(age)">
+				<a href="#" id="english-page" onclick="validateAge(document.getElementsByName('age').value)">
 					<img src="./images/lang/english.png" alt="English" />
 				</a>
-				<a href="#">
+				<a href="#" id="spanish-page" onclick="">
 					<img src="./images/lang/spanish.png" alt="Spanish" />
 				</a>
 

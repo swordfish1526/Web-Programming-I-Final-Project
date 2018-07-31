@@ -14,8 +14,9 @@ function notEmptyValue(c) {
   return true;
 }
 
-function validateAge(age) {
-    if(age >= 18){
+function validateAge(value) {
+    console.log('DATA' + value);
+    if(document.getElementById('age') === 18){
         alert('You can buy something!');
     }
 }
