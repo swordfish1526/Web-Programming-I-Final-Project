@@ -14,11 +14,13 @@ function notEmptyValue(c) {
   return true;
 }
 
-function validateAge(value) {
-    console.log('DATA' + value);
-    if(document.getElementById('age') === 18){
-        alert('You can buy something!');
-    }
+function validateAge() {
+  let age = document.getElementById('age').value;  
+  if(age < 18){
+    alert('You should be at least 18 years old to buy a product!');
+  }else{
+    window.location.href = "home.html";
+  }
 }
 
 // Get the elements with class="column"
