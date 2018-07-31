@@ -14,12 +14,16 @@ function notEmptyValue(c) {
   return true;
 }
 
-function validateAge() {
+function validateAge(idiom) {
   let age = document.getElementById('age').value;  
   if(age < 18){
     alert('You should be at least 18 years old to buy a product!');
   }else{
-    window.location.href = "home.html";
+    if(idiom === 'en'){
+      window.location.href = "home.html";
+    }else{
+      alert('Under constructions!');
+    }    
   }
 }
 
