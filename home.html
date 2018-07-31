@@ -7,10 +7,13 @@
 	<meta name="description" content="Home page to see products informations">
 	<meta name="author" content="Carlos Sanz">
 	<meta name="robots" content="Home">
+	<link rel="stylesheet" type="text/css" href="./styles/style.css" />
+	<script src="./scripts/util.js"></script>
 	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
 </head>
 
 <body>
+<<<<<<< HEAD
 	<div id="container">
 		<div id="header">
 			<h1>Cheap & Good LLC</h1>
@@ -22,66 +25,74 @@
 				<a href="about us.html">About Us</a> &nbsp;
 				<a href="contact.html">Contact</a> &nbsp;
 			</nav>
-		</div>
-	</div>
+=======
+	<header>
+		<div id="container">
 
-	<div>
-			<div class="row"> 
-					<div class="column">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					</div>
-					<div class="column">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					</div> 
-					<div class="column">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					  <img src="./images/macbook.jpg">
-					</div>					
-				  </div>
-	</div>
-
-	<div class="valueRedColor-theme" data-reactroot="">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="image-shell">
-					<a href="">
-						<img class="img-responsive" src="./images/electronics (1).jpg" alt="electronics">
-					</a>
-				</div>
+			<div id="header">
+				<h1>Cheap & Good LLC</h1>
 			</div>
-			<div class="col-xs-12">
-				<h2 class="header v-fw-medium">MacBook Savings</h2>
-				<div>
-					<h3 class="undefined v-fw-medium"> <br>Save up to $100</h3>
-					<p class="description">on select models. Plus, save an extra $150 with Student Deals.</p>
-					<div>
-						<p class="disclaimer">
-							<span>Minimum savings is $50.</span>
-						</p>
+			<div id="nav">
+				<nav>
+					<a href="home.html">Home</a> &nbsp;
+					<a href="testimonials.html">Testimonial</a> &nbsp;
+					<a href="about.html">About</a> &nbsp;
+					<a href="contact.html">Contact</a> &nbsp;
+				</nav>
+			</div>
+>>>>>>> 381279cca05b2a78bb6b5b9e4ab64ebb154b1427
+		</div>
+	</header>
+
+	<section>		
+
+		<products>
+			<section class="products">
+				<div class="product-card" onclick="selectProduct()">
+					<div class="product-image">
+						<img src="./images/macbook.jpg">
 					</div>
-					<div>
-						<div class="link v-fw-medium">
-							<a href="/site/promo/macbooks-savings" data-track="[context:linkContent=GHP_20180729_GL23920_MacbookTopperAppBanner,linkRegion=Promo1,linkPlacement=c1w1]">Shop select MacBook ›</a>
-						</div>
+					<div class="product-info">
+						<h5>Macbook Pro</h5>
+						<h6>$2,799.00</h6>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
+
+				<div class="product-card" onclick="selectProduct()">
+					<div class="product-image">
+						<img src="./images/macbook.jpg">
+					</div>
+					<div class="product-info">
+						<h5>Macbook Pro</h5>
+						<h6>$2,799.00</h6>
+					</div>
+				</div>
+
+				<div class="product-card" onclick="selectProduct()">
+					<div class="product-image">
+						<img src="./images/macbook.jpg">
+					</div>
+					<div class="product-info">
+						<h5>Macbook Pro</h5>
+						<h6>$2,799.00</h6>
+					</div>
+				</div>
+
+				<div class="product-card" onclick="selectProduct()">
+					<div class="product-image">
+						<img src="./images/macbook.jpg">
+					</div>
+					<div class="product-info">
+						<h5>Macbook Pro</h5>
+						<h6>$2,799.00</h6>
+					</div>
+				</div>
+			</section>
+		</products>
+	</section>
+
+	<footer>
+		<p>Footer to be replaced</p>
+	</footer>
+
 </body>

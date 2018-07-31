@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 /*
 h1, a, p,h3, h4 {
+=======
+
+.company-title {
+  color: #fff;
+}
+
+p,h3, h4 {
+>>>>>>> 381279cca05b2a78bb6b5b9e4ab64ebb154b1427
   color: #fff;
 }
 
@@ -28,6 +37,67 @@ html {
   text-decoration:none; 
   padding:0 30px; /* variable width */
   }/*
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+
+   -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  display: flex; /* so child elements can use flexbox stuff too! */
+}
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
+}
 
 .background-container {
     background: #101f61;
