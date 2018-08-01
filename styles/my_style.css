@@ -1,4 +1,13 @@
-h1, a, p,h3, h4 {
+
+.company-title {
+  color: #fff;
+}
+
+.company-title {
+  color: #fff;
+}
+
+h3, h4 {
   color: #fff;
 }
 
@@ -15,6 +24,78 @@ body {
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
+}*/
+
+#nav {
+  text-align:center;
+  }
+  #nav li {
+  display:inline;
+  }
+  #nav a {
+  text-decoration:none; 
+  padding:0 30px; /* variable width */
+  }/*
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+
+   -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  display: flex; /* so child elements can use flexbox stuff too! */
+}
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
 }
 
 .background-container {
@@ -52,7 +133,6 @@ user agent stylesheet a:-webkit-any-link {
   flex-wrap: wrap;
   padding: 0 4px;
 }
-
 /* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
@@ -144,4 +224,11 @@ user agent stylesheet a:-webkit-any-link {
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover {
   background: #2ebc99;
+}
+
+#footer{
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
